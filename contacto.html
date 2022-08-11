@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.extension.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="shortcut icon" href="img/logo.ico" />
+  	<title>Parapente Agencia Digital</title>
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div id="loader-wrapper"></div>
+
+    <!-- HEADER -->
+        <!-- HEADER -->
+    <header class="type-3 white">
+        <div class="header-wrapper">
+            <a id="logo" href="index"><img src="img/logo.ico" alt="" /></a>
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="follow style-1">
+                <a class="entry" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a class="entry" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a class="entry" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a class="entry" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+            </div>
+        </div>
+        <div class="navigation-wrapper" style="background-image: url(img/FONDOBLANCO.png);">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index" style="color: #032A45;"><p>Parapente</p></a>
+                    </li>
+                    <li>
+                        <a href="nosotros" style="color: #032A45;"><p>Nosotros</p></a>
+                    </li>
+                    <li><a href="servicios" style="color: #032A45;"><p>Servicios</p></a></li>
+                    <li>
+                        <a href="portafolio" style="color: #032A45;"><p>Portafolio</p></a>
+                    </li>
+                    <li>
+                        <a href="contacto" style="color: #032A45;"><p>Contacto</p></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>1
+
+    <div id="content-block">
+
+        <div class="container-fluid wide">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 col-lg-offset-1">
+                    <div class="cell-view full-screen-height text-center">
+                        <div class="empty-space col-xs-b30"></div>
+                        <article class="sa">
+                            <h3 style="color: #032A45;">Contacto Parapente Agencia</h3>
+                            <p>Estamos listos para asesorarte de manera profesional, ponte en contacto con nosotros e iniciemos un proyecto inigualable.</p>
+                        </article>
+                        <div class="empty-space col-xs-b25 col-sm-b50"></div>
+                        <div class="sa col-xs-b10">
+                            <b>Tel.:</b> <a href="tel:+6264604061">(984) 593 31 69 · (771) 184 66 21</a><br/>
+                        </div>
+                        <div class="sa col-xs-b10">
+                            <b>Dirección: Calle 36 norte esquina Av. 55. Colonia El Pedregal, Playa del Carmen, Q.Roo, México.</b><br/>
+                        </div>
+                        <div class="sa col-xs-b10">
+                            <b>Horarios de oficina:</b> <a href="mailto:hello@tdhcreative.com">Lun-Vie 10am - 6pm</a>
+                        </div>
+                        <div class="empty-space col-xs-b30"></div>
+                        <div class="follow style-1">
+                            <a class="entry" href="https://www.facebook.com/ParapenteAgencia" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </div>
+                        <div class="empty-space col-xs-b25 col-sm-b50"></div>
+
+                        <form class="contact-form" action="send_mail" method="POST">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="simple-input-wrapper">
+                                        <input class="simple-input" value="" type="text" placeholder="Nombre*" name="name"  required/>
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="simple-input-wrapper">
+                                        <input class="simple-input" value="" type="email" placeholder="Email*" name="email"  required/>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="simple-input-wrapper">
+                                <textarea class="simple-input" placeholder="Escribe tu mensaje*" name="message" required></textarea>
+                                <span></span>
+                            </div>
+                            <div class="empty-space col-xs-b10"></div>
+                            <div class="button">Enviar mensaje<input type="submit"/></div>
+                        </form>
+
+                        <div class="empty-space col-xs-b30"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-inst style-1" id="map-canvas" data-lat="20.636920" data-lng="-87.078408" data-zoom="16"></div>
+            <div class="addresses-block hidden" data-rel="map-canvas">
+                <a class="marker" data-lat="20.636920" data-lng="-87.078408" data-string="Parapente Agencia Digital"></a>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="type-1">
+            <div class="container">
+                <div class="col-xs-text-center">
+                    <div class="copyright sa small">&copy; 2017 Parapente Agencia Digital. Todos los derechos reservados.<a href="https://themeforest.net/user/unionagency" target="_blank"><b></b></a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="phone-marker visible-xs"></div><div class="tablet-marker visible-sm"></div>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/global.js"></script>
+
+    <!-- MAP -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1iZEMVNszxdBtEI-d1ZyllA9_-NQOCXI&callback=initMap"></script>
+    <script src="js/map.js"></script>
+
+    <!-- CONTACT -->
+    <script src="js/contact.form.js"></script>
+
+</body>
+</html>
